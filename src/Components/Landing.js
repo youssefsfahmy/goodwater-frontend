@@ -15,6 +15,8 @@ import img8 from "../imgs/8-Fog.png";
 import img9 from "../imgs/test.png";
 import img10 from "../imgs/10-Fog.png";
 import img11 from "../imgs/9-Forground-lower.png";
+import text1 from "../imgs/text1.png";
+import text2 from "../imgs/text2.png";
 
 import "../CSS/landing.css";
 export default function Landing() {
@@ -30,17 +32,18 @@ export default function Landing() {
           <img src={img4} className="layer4 reveal" alt="img" />
           <img src={img5} className="layer5 reveal" alt="img" />
           <img src={img10} className="layer10 reveal" alt="img" />
-          {/* <img src={img6} className="layer6 reveal" alt="img" /> */}
+          <img src={text1} className="text1 " alt="img" />
+          <img src={text2} className="text2 " alt="img" />
           <img src={img61} className="layer61 reveal" alt="img" />
-          <img src={img7} className="layer7 reveal" alt="img" />{" "}
+          <img src={img7} className="layer7 reveal" alt="img" />
           <img src={img62} className="layer62 reveal" alt="img" />
           <img src={img8} className="layer8 reveal" alt="img" />
           <img src={img9} className="layer9 reveal" alt="img" />
-        </div>{" "}
-      </div>{" "}
+        </div>
+      </div>
       <div className="wrapperwrapper">
         <div className="wrapper div2">
-          <img src={img1} className="layer1 " alt="img " />{" "}
+          <img src={img1} className="layer1 " alt="img " />
           <div className={inView ? "textDiv floatuptext" : "textDiv"}>
             GOOD FOR YOU. GOOD FOR THE ENVIROMENT.
             <br /> GOOD FOR EARTH. <br />
