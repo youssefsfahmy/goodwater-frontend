@@ -1,0 +1,216 @@
+.containere {
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-snap-points-y: repeat(300px);
+}
+.wrapperwrapper {
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+.wrapper img {
+  min-width: 101%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+}
+.div1 {
+  height: 100vh;
+}
+.div2 {
+  scroll-snap-align: start;
+
+  height: 100vh;
+}
+.layer1 {
+  top: 0;
+  height: 255vh;
+}
+.layer2 {
+  opacity: 0;
+  transition: 1s;
+  top: 28vh;
+  min-width: 20vw !important;
+  width: 24vw;
+}
+.layer3 {
+  height: 105vh;
+  top: 0;
+  position: fixed !important;
+}
+.layer4 {
+  position: fixed !important;
+  top: 0;
+  height: 74vh;
+}
+.layer5 {
+  bottom: 0;
+  height: 128vh;
+}
+.layer6 {
+  min-width: auto !important;
+  transition: 0.1s !important;
+  width: 60vw;
+  bottom: 40vh;
+}
+.layer61 {
+  filter: opacity(0.8);
+  min-width: auto !important;
+  transition: 0.5s !important;
+  height: 28vh;
+  bottom: 40vh;
+  left: 39% !important;
+}
+.layer62 {
+  filter: opacity(0.8);
+  min-width: auto !important;
+  transition: 0.5s !important;
+  height: 28vh;
+  bottom: 15vh;
+}
+.layer7 {
+  height: 84vh;
+  bottom: 1vh;
+}
+.layer8 {
+  height: 80vh;
+  bottom: -15vh;
+}
+.layer9 {
+  top: -5vh;
+  height: 370vh;
+  filter: blur(1.5px);
+}
+.layer10 {
+  position: fixed !important;
+
+  top: -7vh;
+  height: 107vh;
+}
+.layer11 {
+  top: 0;
+  height: 255vh;
+}
+
+.floatup {
+  transform: translate(-50%, 10px) !important;
+  left: 22% !important;
+  opacity: 1;
+}
+.floatuptext {
+  right: 5% !important;
+  opacity: 1 !important;
+}
+.textDiv {
+  transition: 1s;
+  color: WHITE;
+  position: absolute;
+  top: 28vh;
+  font-size: 2rem;
+  text-align: left;
+  width: 55%;
+  right: 30%;
+  opacity: 0;
+}
+.textDiv .textBody {
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+/* /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .layer62 {
+    height: 12vh;
+    left: 52% !important;
+    bottom: 35vh;
+  }
+  .layer61 {
+    left: 43% !important;
+    height: 12vh;
+    bottom: 48vh;
+  }
+  .textDiv {
+    transition: 1s;
+    color: WHITE;
+    position: absolute;
+    top: 44vh;
+    font-size: 2rem;
+    text-align: left;
+    width: 90%;
+    right: -10%;
+    opacity: 0;
+  }
+  .floatuptext {
+    right: 5% !important;
+    opacity: 1 !important;
+  }
+  .layer2 {
+    opacity: 0;
+    transition: 1s;
+    top: 10vh;
+    min-width: 20vw !important;
+    height: 30vh;
+    width: auto;
+  }
+  .floatup {
+    transform: translate(-50%, 10px) !important;
+    left: 50% !important;
+    opacity: 1;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .layer62 {
+    height: 15vh;
+    left: 55% !important;
+  }
+  .layer61 {
+    left: 45% !important;
+    height: 15vh;
+    bottom: 30vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .layer62 {
+    height: 15vh;
+    left: 55% !important;
+  }
+  .layer61 {
+    left: 45% !important;
+    height: 15vh;
+    bottom: 30vh;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .layer62 {
+    left: 55% !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .layer61 {
+    filter: opacity(0.8);
+    min-width: auto !important;
+    transition: 0.5s !important;
+    height: 28vh;
+    bottom: 40vh;
+    left: 39% !important;
+  }
+  .layer62 {
+    filter: opacity(0.8);
+    min-width: auto !important;
+    transition: 0.5s !important;
+    height: 28vh;
+    bottom: 15vh;
+  }
+}
