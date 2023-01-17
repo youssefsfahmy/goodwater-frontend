@@ -98,7 +98,7 @@
 .floatup {
   transform: translate(-50%, 10px) !important;
   left: 22% !important;
-  opacity: 1;
+  opacity: 1 !important;
 }
 .floatuptext {
   right: 5% !important;
@@ -212,5 +212,12 @@
     transition: 0.5s !important;
     height: 28vh;
     bottom: 15vh;
+  }
+  .layer2 {
+    opacity: 0;
+    transition: 1s;
+    top: 10vh;
+    min-width: 20vw !important;
+    width: 24vw;
   }
 }
